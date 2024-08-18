@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lnCategory"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#4DFFFFFF"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="5dp">
+
+    <TableRow
+        android:id="@+id/trCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivAlbumArt"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            app:shapeAppearanceOverlay="@style/borderImageView_10dp"
+            app:srcCompat="@drawable/ic_album" />
+
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:paddingEnd="20dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:maxLines="1"
+            android:text="Ajhkjh Bhiudhuwi Cuhiudh Dkjhjk"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivExpand"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:tint="@color/black"
+            android:src="@drawable/ic_expand_more"
+            tools:ignore="UseAppTint" />
+    </TableRow>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvListSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00FFFFFF"
+        android:layoutAnimation="@anim/layout_animation"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:listitem="@layout/item_song"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>
