@@ -1,7 +1,9 @@
 # Media Player App 🎵 📸
 
-
-A sleek and modern music player app that allows users to enjoy their favorite songs with a beautiful interface and smooth experience. This app supports creating playlists, searching for tracks, and provides high-quality audio playback.
+Hi there!<br/>
+This is my media app that allows users to manage their favorite songs and memorable photos. In short:<br/>
+- Full-functional music app
+- Save image and create your memories like Google Photos
 
 ## Features
 
