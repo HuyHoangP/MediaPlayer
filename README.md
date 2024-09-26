@@ -4,13 +4,22 @@ Hi there!<br/>
 This is my media app that allows users to manage their favorite songs and memorable photos. In short:<br/>
 - Full-functional music app
 - Save image and create your memories like Google Photos
+<br/><br/>
+<div align="center"><b>MUSICS AND PHOTOS MAIN SCREEN</b></div><br/>
+<div align="center">
+<img width="294" height="630" alt="MusicMainScreen" src="https://github.com/user-attachments/assets/e11e3260-fe52-4cd5-99dc-31324b990b49">
+<img width="297" alt="PhotoMainScreen" src="https://github.com/user-attachments/assets/7bb23dc3-d089-4d75-9ef9-5ea150aabad4">
+</div>
 
 ## Features
 
-### 1. User Registration and Login
-Users can create an account or log in with existing credentials to personalize their music experience. All saved playlists and preferences are synced to their account.
-
-![User Registration](./images/register.png)
+### 1. Load songs from your phone
+Users can touch the gear icon on top-right to go to setting screen. Then choose scan music options to load song from your phone. You can also move to the photos main screen from here<br/>
+I used "Cursor" interface to query audio flie in MediaStore External Storage
+<div align="center"><b>SETTINGS SCREEN</b></div><br/>
+<div align="center">
+<img width="294" alt="SettingScreen" src="https://github.com/user-attachments/assets/fb407959-8576-4168-bd07-a412d6238999">
+</div>
 
 ### 2. Music Library
 Browse through thousands of songs in the music library, categorized by genre, artist, and album. Easily find the music you love and start playing it right away.
