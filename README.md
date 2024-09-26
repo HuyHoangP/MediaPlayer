@@ -14,15 +14,22 @@ This is my media app that allows users to manage their favorite songs and memora
 ## Features
 
 ### 1. Load songs from your phone
-Users can touch the gear icon on top-right to go to setting screen. Then choose scan music options to load song from your phone. You can also move to the photos main screen from here<br/>
-I used "Cursor" interface to query audio flie in MediaStore External Storage
+Users touch the gear icon on top-right to go to setting screen. Then choose scan music options to load song from your phone. They can also move to the photos main screen from here<br/>
+- There is a toast will pop-up when load song operation is complete
+- I used "Cursor" interface to query audio flie in MediaStore External Storage
 <div align="center"><b>SETTINGS SCREEN</b></div><br/>
 <div align="center">
-<img width="294" alt="SettingScreen" src="https://github.com/user-attachments/assets/fb407959-8576-4168-bd07-a412d6238999">
+   <img width="294" alt="SettingScreen" src="https://github.com/user-attachments/assets/fb407959-8576-4168-bd07-a412d6238999">
 </div>
 
-### 2. Music Library
-Browse through thousands of songs in the music library, categorized by genre, artist, and album. Easily find the music you love and start playing it right away.
+### 2. Search Functionality
+Users touch the search icon next to gear icon on top-right to go to search screen. Quickly search for songs, albums, or artists by using the built-in search bar. Results are displayed in real-time as you type.<br/>
+- I used SearchView and RecycleView to do this function
+<div align="center"><b>SEARCH SCREEN</b></div><br/>
+<div align="center">
+   <img width="287" alt="SearchScreen" src="https://github.com/user-attachments/assets/8a1b5a0c-9f53-4832-acf6-39dd131b1033">
+</div>
+
 
 ![Music Library](./images/library.png)
 
