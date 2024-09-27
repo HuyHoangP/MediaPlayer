@@ -7,8 +7,8 @@ This is my media app that allows users to manage their favorite songs and memora
 <br/><br/>
 <div align="center"><b>MUSICS AND PHOTOS MAIN SCREEN</b></div><br/>
 <div align="center">
-<img width="294" height="630" alt="MusicMainScreen" src="https://github.com/user-attachments/assets/e11e3260-fe52-4cd5-99dc-31324b990b49">
-<img width="297" alt="PhotoMainScreen" src="https://github.com/user-attachments/assets/7bb23dc3-d089-4d75-9ef9-5ea150aabad4">
+   <img width="294" height="630" alt="MusicMainScreen" src="https://github.com/user-attachments/assets/e11e3260-fe52-4cd5-99dc-31324b990b49">
+   <img width="297" alt="PhotoMainScreen" src="https://github.com/user-attachments/assets/7bb23dc3-d089-4d75-9ef9-5ea150aabad4">
 </div>
 
 ## Features
