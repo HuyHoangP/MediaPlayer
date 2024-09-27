@@ -76,7 +76,7 @@ Obviously, a music listening app cannot lack a notification. Users will use this
 ### 7. Auto-change theme color
 Now if you notice in the illustrations above, the color of the app is different, right? Yes, the app's theme color will automatically change gradually according to the current song's thumbnail. This also apply to notification's color. Enjoy your music in a visually pleasing environment.
 - I used Pallete library to do this function
-<div align="center"><b>PLAY MEMORY SCREEN</b></div><br/>
+<div align="center"><b>CHANGE THEME COLOR</b></div><br/>
 <div align="center">
    <img width="301" alt="MemoryScreen" src="https://github.com/user-attachments/assets/d6012f76-8181-4c9c-975e-ed667c8ec7a9">
 </div>
