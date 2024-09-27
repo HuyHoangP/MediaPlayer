@@ -76,6 +76,11 @@ Obviously, a music listening app cannot lack a notification. Users will use this
 ### 7. Auto-change theme color
 Now if you notice in the illustrations above, the color of the app is different, right? Yes, the app's theme color will automatically change gradually according to the current song's thumbnail. This also apply to notification's color. Enjoy your music in a visually pleasing environment.
 - I used Pallete library to do this function
+<div align="center"><b>PLAY MEMORY SCREEN</b></div><br/>
+<div align="center">
+   <img width="301" alt="MemoryScreen" src="https://github.com/user-attachments/assets/d6012f76-8181-4c9c-975e-ed667c8ec7a9">
+</div>
+
 
 
 ### 8. Manage your memories
@@ -87,12 +92,13 @@ Create your memory by select at least 1 photo in your gallery. Then users can ad
 </div>
 
 ### 9. Play your memories
-Play your created memory like Google Photos! 
+Play your created memory like Google Photos!
+- I used Custom View to do this function
 <div align="center"><b>PLAY MEMORY SCREEN</b></div><br/>
 <div align="center">
- ![PlayMemory](https://github.com/user-attachments/assets/9ab014e0-0685-469c-8640-98cb5ec3a76f)
-
+   <img width="301" alt="MemoryScreen" src="https://github.com/user-attachments/assets/9ab014e0-0685-469c-8640-98cb5ec3a76f">
 </div>
+
 
 
 ## Installation
