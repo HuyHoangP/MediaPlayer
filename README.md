@@ -90,9 +90,8 @@ Create your memory by select at least 1 photo in your gallery. Then users can ad
 Play your created memory like Google Photos! 
 <div align="center"><b>PLAY MEMORY SCREEN</b></div><br/>
 <div align="center">
-   Markdown
-   
-    ![PlayMemory](https://github.com/HuyHoangP/MediaPlayer/blob/master/PlayMemory.gif)
+ ![PlayMemory](https://github.com/user-attachments/assets/9ab014e0-0685-469c-8640-98cb5ec3a76f)
+
 </div>
 
 
