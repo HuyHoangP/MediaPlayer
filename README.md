@@ -98,17 +98,3 @@ Play your created memory like Google Photos!
 <div align="center">
    <img width="301" alt="MemoryScreen" src="https://github.com/user-attachments/assets/9ab014e0-0685-469c-8640-98cb5ec3a76f">
 </div>
-
-
-
-## Installation
-
-### System Requirements
-- Node.js v14+ for server-side dependencies.
-- A modern web browser or mobile platform for the frontend.
-
-### Steps to Install Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/music-player-app.git
-
