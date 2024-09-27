@@ -32,9 +32,7 @@ public class MemoryFragment extends BaseFragment<FragmentMemoryBinding, CommonVM
     public static final String DELETE_MODE = "DELETE MODE";
     public static final String EDIT_TITLE_MODE = "EDIT TITLE MODE";
     private static final String CHOOSE_COVER = "CHOOSE COVER";
-
     private String mode;
-
     private Observer<List<Photo>> listPhotoObserver;
 
     private List<Photo> listPhoto;
@@ -95,20 +93,17 @@ public class MemoryFragment extends BaseFragment<FragmentMemoryBinding, CommonVM
     }
 
     private void initLauncher() {
-        galleryLauncher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), new ActivityResultCallback<ActivityResult>() {
-            @Override
-            public void onActivityResult(ActivityResult result) {
-                if (result.getResultCode() == RESULT_OK) {
-                    if (result.getData().getClipData() != null) {
-                        ClipData photosUri = result.getData().getClipData();
-                        for (int i = 0; i < photosUri.getItemCount(); i++) {
-                            Uri photoUri = photosUri.getItemAt(i).getUri();
-                            addPhotoToDB(memoryInfo.getDate(), photoUri);
-                        }
-                    } else if (result.getData().getData() != null) {
-                        Uri photoUri = result.getData().getData();
+        galleryLauncher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), result -> {
+            if (result.getResultCode() == RESULT_OK) {
+                if (result.getData().getClipData() != null) {
+                    ClipData photosUri = result.getData().getClipData();
+                    for (int i = 0; i < photosUri.getItemCount(); i++) {
+                        Uri photoUri = photosUri.getItemAt(i).getUri();
                         addPhotoToDB(memoryInfo.getDate(), photoUri);
                     }
+                } else if (result.getData().getData() != null) {
+                    Uri photoUri = result.getData().getData();
+                    addPhotoToDB(memoryInfo.getDate(), photoUri);
                 }
             }
         });
@@ -182,7 +177,7 @@ public class MemoryFragment extends BaseFragment<FragmentMemoryBinding, CommonVM
                 adapter.getMapDeletePhoto().forEach((photo, integer) -> {
                     listPhoto.remove(photo);
                     callback.deletePhotos(photo);
-                    if(photo.getPath().equals(memoryInfo.getCover())){
+                    if(!listPhoto.isEmpty() && photo.getPath().equals(memoryInfo.getCover())){
                         callback.updateMemoryInfo(new MemoryInfo(memoryInfo.getDate(), listPhoto.get(0).getPath(), memoryInfo.getTitle()));
                     }
 

@@ -91,6 +91,7 @@ public class MemoryIndicator extends View {
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.LinearIndicator);
         size = typedArray.getInt(R.styleable.LinearIndicator_size, 1);
         typedArray.recycle();
+
         paintWhite = new Paint();
         paintWhite.setAntiAlias(true);
         paintWhite.setColor(Color.WHITE);
