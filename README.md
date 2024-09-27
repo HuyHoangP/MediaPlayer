@@ -78,10 +78,21 @@ Now if you notice in the illustrations above, the color of the app is different,
 - I used Pallete library to do this function
 
 
-### 8. Dark Mode
-Switch between light and dark mode depending on your preferences. 
+### 8. Manage your memories
+Create your memory by select at least 1 photo in your gallery. Then users can add, delete, remame memory or photo inside that memory. You can change memory's cover image as well 
+<div align="center"><b>PHOTO MAIN SCREEN AND MEMORY SCREEN</b></div><br/>
+<div align="center">
+   <img width="297" alt="PhotoMainScreen2" src="https://github.com/user-attachments/assets/d04157ea-dfcf-4eb5-b6bb-3dd7a689d23e">
+   <img width="301" alt="MemoryScreen" src="https://github.com/user-attachments/assets/9f7e28af-6488-4fa3-894a-3a2f31a98ea5">
+</div>
 
-![Dark Mode](./images/dark-mode.png)
+### 9. Play your memories
+Play your created memory like Google Photos! 
+<div align="center"><b>PLAY MEMORY SCREEN</b></div><br/>
+<div align="center">
+   
+</div>
+
 
 ## Installation
 
